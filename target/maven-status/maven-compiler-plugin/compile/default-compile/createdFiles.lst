@@ -1,0 +1,4 @@
+com/example/myapp/model/DataModel.class
+com/example/myapp/controller/DataController.class
+com/example/myapp/MySpringBootApplication.class
+com/example/myapp/repository/DataRepository.class
