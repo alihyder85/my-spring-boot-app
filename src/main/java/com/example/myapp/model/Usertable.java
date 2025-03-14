@@ -1,4 +1,3 @@
-
 package com.example.myapp.model;
 
 import jakarta.persistence.Entity;
@@ -7,10 +6,9 @@ import lombok.Data;
 
 @Entity
 @Data
-public class DataModel {
+public class Usertable {
     @Id
-    private Long id;
-    private String name;
-    private String description;
-
+    private String username;
+    private String password;
+    private String role;
 }
